@@ -1,0 +1,11 @@
+# config.yaml
+
+# Claude model settings
+claude:
+  model: "claude-haiku-4-5-20251001"
+
+# Personal interests for paper filtering (kept out of git)
+interests:
+  - "I like to learn how concepts from quantum physics make traditional ML better"
+  - "I want to have some papers that could be used to start a business or in any case some interesting theory that could be applied in some way"
+  - "Things that could aid a data scientist (myself) who specializes on ML forecasting and agents"
