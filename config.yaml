@@ -2,10 +2,31 @@
 
 # Claude model settings
 claude:
-  model: "claude-haiku-4-5-20251001"
+  selection_model: "claude-sonnet-4-6"
+  summary_model: "claude-haiku-4-5-20251001"
+
+# Top venues — papers mentioning these in their comment field are prioritised
+top_venues:
+  - NeurIPS
+  - ICML
+  - ICLR
+  - CVPR
+  - ICCV
+  - ACL
+  - EMNLP
+  - NAACL
+  - KDD
+  - WWW
+  - AAAI
+  - IJCAI
+  - JMLR
+  - Nature
+  - Science
+  - PNAS
 
 # Personal interests for paper filtering (kept out of git)
 interests:
   - "I like to learn how concepts from quantum physics make traditional ML better"
   - "I want to have some papers that could be used to start a business or in any case some interesting theory that could be applied in some way"
   - "Things that could aid a data scientist (myself) who specializes on ML forecasting and agents"
+  - "In all above cases prioritize papers with applications to use cases that a economic/financial data scientist can use to build something with applications to industry and society NOT INVESTMENTS"

@@ -22,13 +22,13 @@ def search_filter()-> str:
         "OR cat:cs.CL"
         ")"
     ),
-    max_results=20, #Reduce for now for testing
+    max_results=1000,
     sort_by=arxiv.SortCriterion.SubmittedDate
   )
 
   results = list(client.results(search))
 
-  for r in results:
-    print(r.title)
-
   return results
+
+if __name__ == "__main__":
+  search_filter()

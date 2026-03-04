@@ -5,13 +5,14 @@ description = ""
 authors = [
     {name = "Alex",email = "alex.kyr.triant@gmail.com"}
 ]
-readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "arxiv (>=2.4.0,<3.0.0)",
     "anthropic (>=0.79.0,<0.80.0)",
     "pyyaml (>=6.0.3,<7.0.0)",
-    "python-dotenv (>=1.2.1,<2.0.0)"
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "streamlit (>=1.55.0,<2.0.0)",
+    "watchdog (>=6.0.0,<7.0.0)"
 ]
 
 
